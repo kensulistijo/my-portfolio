@@ -8,7 +8,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { FaGithub, FaLinkedin, FaPhone, FaDiscord } from "react-icons/fa";
 import {Contact} from "./Contact";
-import myPhoto from '../assets/ken.jpeg';
+import myPhoto from './assets/ken.jpeg';
 
 const responsive = {
   superLargeDesktop: {
