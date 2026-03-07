@@ -20,7 +20,7 @@ export const Contact = () => {
       return;
     }
 
-    if (!email.endsWith(".com")) {
+    if (!email.endsWith(".com") && !email.endsWith(".net") && !email.endsWith(".edu") && !email.endsWith(".id")) {
       setStatus("error");
       setMessage("Invalid email address.");
       return;
