@@ -8,6 +8,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { FaGithub, FaLinkedin, FaPhone, FaDiscord } from "react-icons/fa";
 import {Contact} from "./Contact";
+import myPhoto from '../assets/ken.jpeg';
 
 const responsive = {
   superLargeDesktop: {
@@ -91,7 +92,7 @@ function App() {
       <div className="leftSideIntro">
           <div className="avatar">
             <div className="avatarFrame rounded-full drop-shadow-xl">
-              <img src="./src/assets/ken.jpeg" />
+              <img src={myPhoto} />
             </div>
           </div>
       </div>
