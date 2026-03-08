@@ -9,6 +9,18 @@ import 'react-multi-carousel/lib/styles.css';
 import { FaGithub, FaLinkedin, FaPhone, FaDiscord } from "react-icons/fa";
 import {Contact} from "./Contact";
 import myPhoto from './assets/ken.jpeg';
+import bookber from './assets/bookber.jpg';
+import univision from './assets/univision.jpg';
+import pricehub from './assets/pricehub.jpg';
+import schoolgrad from './assets/school-grad.jpeg';
+import therapease from './assets/therapease.jpg';
+import watchgoods from './assets/watchgoods.jpg';
+import webdev from './assets/web-dev.jpg';
+import mobiledev from './assets/mobile-dev.jpg';
+import pm from './assets/project-management.png';
+import for2 from './assets/for2.jpg';
+import porto from './assets/porto.jpg';
+import frontrow from './assets/frontrow.jpg';
 
 const responsive = {
   superLargeDesktop: {
@@ -141,11 +153,11 @@ function App() {
   </div>
   <div className="rolesContainer">
       <div className="roles">
-      <div className="card bg-base-100 md:w-48 lg:w-96 shadow-sm drop-shadow-xl">
+      <div className="card bg-base-100 md:w-48 lg:w-[32%] shadow-sm drop-shadow-xl">
         <figure>
           <img
-            src="./src/assets/project-management.png"
-            alt="Shoes"
+            src={pm}
+            alt="Project Management"
             className="h-48" />
         </figure>
         <div className="card-body items-center text-center">
@@ -153,11 +165,11 @@ function App() {
           <p>Delivering beneficiary projects on-time by working closely with users and developers, along with administration.</p>
         </div>
       </div>
-      <div className="card bg-base-100 md:w-48 lg:w-96 shadow-sm drop-shadow-xl">
+      <div className="card bg-base-100 md:w-48 lg:w-[32%] shadow-sm drop-shadow-xl">
         <figure>
           <img
-            src="./src/assets/mobile-dev.jpg"
-            alt="Shoes"
+            src={mobiledev}
+            alt="Mobile Development"
             className="h-48" />
         </figure>
         <div className="card-body items-center text-center">
@@ -165,11 +177,11 @@ function App() {
           <p>Developing mobile applications (Android) with the use of Flutter and Android Studio.</p>
         </div>
       </div>
-      <div className="card bg-base-100 w-96 shadow-sm drop-shadow-xl">
+      <div className="card bg-base-100 md:w-48 lg:w-[32%] shadow-sm drop-shadow-xl">
         <figure>
           <img
-            src="./src/assets/web-dev.jpg"
-            alt="Shoes"
+            src={webdev}
+            alt="Web Development"
             className="h-48" />
         </figure>
         <div className="card-body items-center text-center">
@@ -184,7 +196,7 @@ function App() {
       <h1 className="text-4xl">EDUCATION</h1>
       <div className="school flex items-stretch pt-5" id="school">
         <div className="leftSchool">
-          <img src="./src/assets/school-grad.jpeg" className="h-full object-cover" alt="" />
+          <img src={schoolgrad} className="h-full object-cover" alt="" />
         </div>
         <div className="rightSchool bg-white p-5">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold">Notre Dame Senior High School</h2>
@@ -235,7 +247,7 @@ function App() {
       <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-full">
           <img
-            src="./src/assets/porto.jpg"
+            src={porto}
             className="w-full" />
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide6" className="btn btn-circle">❮</a>
@@ -244,7 +256,7 @@ function App() {
         </div>
         <div id="slide2" className="carousel-item relative w-full">
           <img
-            src="./src/assets/watchgoods.jpg"
+            src={watchgoods}
             className="w-full" />
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide1" className="btn btn-circle">❮</a>
@@ -252,8 +264,7 @@ function App() {
           </div>
         </div>
         <div id="slide3" className="carousel-item relative w-full">
-          <img src="
-            ./src/assets/frontrow.jpg"
+          <img src={frontrow}
             className="w-full" />
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide2" className="btn btn-circle">❮</a>
@@ -262,7 +273,7 @@ function App() {
         </div>
         <div id="slide4" className="carousel-item relative w-full">
           <img
-            src="./src/assets/pricehub.jpg"
+            src={pricehub}
             className="w-full" />
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide3" className="btn btn-circle">❮</a>
@@ -271,7 +282,7 @@ function App() {
         </div>
         <div id="slide5" className="carousel-item relative w-full">
           <img
-            src="./src/assets/univision.jpg"
+            src={univision}
             className="w-full" />
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide4" className="btn btn-circle">❮</a>
@@ -280,7 +291,7 @@ function App() {
         </div>
         <div id="slide6" className="carousel-item relative w-full">
           <img
-            src="./src/assets/bookber.jpg"
+            src={bookber}
             className="w-full" />
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide5" className="btn btn-circle">❮</a>
@@ -289,7 +300,7 @@ function App() {
         </div>
         <div id="slide7" className="carousel-item relative w-full">
           <img
-            src="./src/assets/therapease.jpg"
+            src={therapease}
             className="w-full" />
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide6" className="btn btn-circle">❮</a>
@@ -298,7 +309,7 @@ function App() {
         </div>
         <div id="slide8" className="carousel-item relative w-full">
           <img
-            src="./src/assets/for2.jpg"
+            src={for2}
             className="w-full" />
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide7" className="btn btn-circle">❮</a>
@@ -416,7 +427,7 @@ function App() {
             <figure>
               <img
                 src="https://i.pinimg.com/originals/32/a0/3a/32a03aee0c76419ec5bde950a62883bc.png"
-                alt="Shoes" />
+                alt="SQL Server Management Studio" />
             </figure>
             <div className="card-body items-center text-center">
               <h2 className="card-title text-lg">SQL Server Management Studio</h2>
