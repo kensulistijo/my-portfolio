@@ -198,7 +198,7 @@ function App() {
         <div className="leftSchool">
           <img src={schoolgrad} className="h-full object-cover" alt="" />
         </div>
-        <div className="rightSchool bg-white p-5">
+        <div className="rightSchool p-5">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold">Notre Dame Senior High School</h2>
           <h3 className="text-lg md:text-xl lg:text-2xl text-gray-500">Jakarta, Indonesia</h3>
           <h5 className="mt-2">Graduated as a high-ranking student, excelling through achievements of the highest grade in mathematics and english.</h5>
@@ -213,7 +213,7 @@ function App() {
         </div>
       </div>
       <div className="college items-stretch" id="college">
-        <div className="leftCollege p-5 bg-white">
+        <div className="leftCollege p-5">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold">
             Bina Nusantara University
           </h2>
