@@ -193,9 +193,9 @@ function App() {
   </div>
   <div className="educationContainer bg-green-100" id="education">
     <div className="education">
-      <h1 className="text-4xl">EDUCATION</h1>
+      <h1 className="text-4xl text-black dark:text-gray-900">EDUCATION</h1>
       <div className="school flex items-stretch pt-5" id="school">
-        <div className="leftSchool">
+        <div className="leftSchool bg-white dark:bg-white text-black dark:text-black">
           <img src={schoolgrad} className="h-full object-cover" alt="" />
         </div>
         <div className="rightSchool p-5">
@@ -213,7 +213,7 @@ function App() {
         </div>
       </div>
       <div className="college items-stretch" id="college">
-        <div className="leftCollege p-5">
+        <div className="leftCollege p-5 bg-white dark:bg-white text-black dark:text-black">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold">
             Bina Nusantara University
           </h2>
